@@ -1,0 +1,219 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.form-floating {
+    position: relative;
+}
+
+    .form-floating input {
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+    }
+
+        .form-floating input:focus {
+            border-color: #80bdff;
+            outline: 0;
+            box-shadow: 0 4px 8px rgba(0, 123, 255, 0.25);
+        }
+
+    .form-floating label {
+        color: #495057;
+    }
+
+.bg-custom-light {
+    background-color: #f8f9fa;
+}
+
+.rounded-custom {
+    border-radius: 1rem;
+}
+
+.shadow-custom {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.text-highlight {
+    color: #007bff;
+}
+.text-highlight {
+    color: #007bff;
+}
+
+.bg-custom-light {
+    background-color: #f8f9fa;
+}
+
+.rounded-custom {
+    border-radius: 0.75rem;
+}
+
+.shadow-custom {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.text-link {
+    color: #007bff;
+}
+
+    .text-link:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+.form-floating input {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+    .form-floating input:focus {
+        border-color: #007bff;
+        outline: 0;
+        box-shadow: 0 4px 8px rgba(0, 123, 255, 0.25);
+    }
+
+.form-floating label {
+    color: #495057;
+}
+.modern-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+    .form-control:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    }
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+}
+
+.form-check-label {
+    margin-left: 5px;
+}
+
+.btn-primary {
+    background: linear-gradient(145deg, #007bff, #0056b3);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background: linear-gradient(145deg, #0056b3, #007bff);
+        box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+    }
+
+.alert-danger {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    color: #721c24;
+    padding: 10px;
+}
+.scrollable-list {
+    max-height: 200px; 
+    overflow-y: auto;
+}.scrollbar {
+    max-height: 400px; 
+    overflow-y: auto;
+}
+.pricing-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+    .pricing-card h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .pricing-card p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .pricing-card h4 {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .pricing-card h6 {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    .pricing-card .btn {
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #007bff;
+        color: white;
+    }
+.container {
+    margin-top: 20px;
+}
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+section {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+    section:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+.container {
+    margin-top: 20px;
+}
